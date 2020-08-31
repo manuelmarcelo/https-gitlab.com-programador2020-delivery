@@ -1,4 +1,4 @@
-package entidades;
+package entidades.user;
 
 public class Admin extends User {
 

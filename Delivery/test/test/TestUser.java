@@ -1,6 +1,6 @@
 package test;
 
-import entidades.User;
+import entidades.user.User;
 
 public class TestUser {
     public static void main(String[] args) {

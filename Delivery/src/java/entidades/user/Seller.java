@@ -1,4 +1,4 @@
-package entidades;
+package entidades.user;
 
 public class Seller extends User{
     String stock; //seria del pedido?

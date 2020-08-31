@@ -1,4 +1,4 @@
-package entidades;
+package entidades.user;
 
 public abstract class User {
     private String user;

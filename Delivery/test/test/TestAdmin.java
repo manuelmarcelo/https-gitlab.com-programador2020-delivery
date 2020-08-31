@@ -1,6 +1,6 @@
 package test;
 
-import entidades.Admin;
+import entidades.user.Admin;
 
 public class TestAdmin {
     public static void main(String[] args) {
