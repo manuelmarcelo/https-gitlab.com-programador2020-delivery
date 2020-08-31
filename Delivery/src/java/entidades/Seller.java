@@ -9,6 +9,10 @@ public class Seller extends User{
     String costoEnvío;
     boolean isVip;
     //reputacion
+    
+    public Seller(String user, String pass){
+        super(user, pass);
+    }
     void ofrecerPedidoParaRepartidor() {}
     void altaMenu(){}
 }

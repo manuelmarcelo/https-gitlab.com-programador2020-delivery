@@ -21,6 +21,8 @@ public class TestAdmin {
         miAdmin.verPedidosActuales();
         miAdmin.verPedidosQuincenales();
         miAdmin.verPedidosSemanales();
+        
+        
         System.out.println("Chau");
     }
 }

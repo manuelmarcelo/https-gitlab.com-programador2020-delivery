@@ -17,6 +17,10 @@ public class Admin extends User {
     public void verPedidosQuincenales() {
         System.out.println("Los pedidos quincenales son... [Aca vienen los datos de la DB]");
     }
+    
+    public void pedidos(String desde, String hasta) {
+    
+    }
 
     public void bestSeller() {
         System.out.println("Los mas vendidos son... [Aca vienen los datos de la DB]");
