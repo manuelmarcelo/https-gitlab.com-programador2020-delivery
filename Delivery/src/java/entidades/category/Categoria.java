@@ -1,4 +1,4 @@
-package entidades;
+package entidades.category;
 
 public class Categoria {
     private String nombre;
