@@ -4,31 +4,28 @@ import entidades.category.Categoria;
 import java.util.ArrayList;
 
 public class Restaurant {
+
     private int id;
     private String name;
-    private Categoria businesstype;
+    private ArrayList<Categoria> businesstype;
     private String direccion;
     private ArrayList<Object> paymentMethodsList;
     private String deliveryTime;
     private String shippingAmount;
-    private String minDeliveryAmount;
-    
+    private String minDeliveryAmount;    
+    public ArrayList<Menu> listaMenu;
 
-    public Restaurant(String name, Categoria businesstype) {
+    public Restaurant(String name, ArrayList<Categoria> businesstype) {
         this.name = name;
         this.businesstype = businesstype;
     }
 
     @Override
     public String toString() {
-        return "Restaurant{" + "id=" + id + ", name=" + name + ", businesstype=" + businesstype + ", direccion=" + direccion + ", paymentMethodsList=" + paymentMethodsList + ", deliveryTime=" + deliveryTime + ", shippingAmount=" + shippingAmount + ", minDeliveryAmount=" + minDeliveryAmount + '}';
+        return "Restaurant{" + "id=" + id + ", name=" + name + ", businesstype=" + businesstype + ", direccion=" + direccion + ", paymentMethodsList=" + paymentMethodsList + ", deliveryTime=" + deliveryTime + ", shippingAmount=" + shippingAmount + ", minDeliveryAmount=" + minDeliveryAmount + ", listaMenu=" + listaMenu + '}';
     }
 
 
-
-
-    
-    
 
     public String getName() {
         return name;
@@ -86,13 +83,12 @@ public class Restaurant {
         this.id = id;
     }
 
-    public Categoria getBusinesstype() {
+    public ArrayList<Categoria> getBusinesstype() {
         return businesstype;
     }
 
-    public void setBusinesstype(Categoria businesstype) {
+    public void setBusinesstype(ArrayList<Categoria> businesstype) {
         this.businesstype = businesstype;
     }
-    
-    
+
 }

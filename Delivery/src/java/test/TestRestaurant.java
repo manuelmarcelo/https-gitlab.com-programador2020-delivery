@@ -2,6 +2,7 @@ package test;
 
 import entidades.Restaurant;
 import entidades.category.Categoria;
+import java.util.ArrayList;
 
 public class TestRestaurant {
     public static void main(String[] args) {
@@ -17,15 +18,28 @@ public class TestRestaurant {
         Categoria miCategoria9 = new Categoria("Vegetariana");
         Categoria miCategoria10 = new Categoria("Mariscos");
         
-        Restaurant elRestoDeYanina = new Restaurant("Como Todo!!!", miCategoria8);
-        Restaurant elRestoDeFlorencia = new Restaurant("VeganoSaurio", miCategoria9);
-        Restaurant elRestoDeLeandro = new Restaurant("Amorfar", miCategoria8);
-        Restaurant elRestoDeFredy = new Restaurant("El ancla", miCategoria10);
         
-        System.out.println(elRestoDeFlorencia);
-        System.out.println(elRestoDeFredy);
-        System.out.println(elRestoDeLeandro);
+        ArrayList<Categoria> listaCategoriaYanina = new ArrayList();
+        listaCategoriaYanina.add(miCategoria9);
+        listaCategoriaYanina.add(miCategoria10);
+        listaCategoriaYanina.add(miCategoria3);
+        Restaurant elRestoDeYanina = new Restaurant("Como Todo!!!", listaCategoriaYanina);
+      
+        
+        ArrayList<Categoria> listadoCategoriaFlorencia =  new ArrayList();
+        listadoCategoriaFlorencia.add(miCategoria9);
+        Restaurant elRestoDeFlorencia = new Restaurant("VeganoSaurio", listadoCategoriaFlorencia);
+        
+        
+        
+//        Restaurant elRestoDeLeandro = new Restaurant("Amorfar", miCategoria8);
+//        Restaurant elRestoDeFredy = new Restaurant("El ancla", miCategoria10);
+        
+//        System.out.println(elRestoDeFlorencia);
+//        System.out.println(elRestoDeFredy);
+//        System.out.println(elRestoDeLeandro);
         System.out.println(elRestoDeYanina);
+        System.out.println(elRestoDeFlorencia);
         
         System.out.println("Chau");
     }
