@@ -33,8 +33,8 @@ public class TestMenuRestaurant {
 
         //2. Quiero un menu que contenga los productos. 
         ArrayList<Menu> listaMenu = new ArrayList();
-        Menu miMenu = new Menu("Desayunos y meriendas","tostado, cafe, Lagrima, Medialuna");
-        Menu miMenu2 = new Menu("Helados 50% OFF", "Mc Flurry y M & M's, Mc Flurry XXL");
+        Menu miMenu = new Menu("Desayunos y meriendas","tostado, cafe, Lagrima, Medialuna", 100);
+        Menu miMenu2 = new Menu("Helados 50% OFF", "Mc Flurry y M & M's, Mc Flurry XXL", 200);
         listaMenu.add(miMenu);
         listaMenu.add(miMenu2);
         miResto.listaMenu = listaMenu;                
