@@ -1,0 +1,94 @@
+body{
+    font-family: 'Muli', sans-serif;
+    background-color: #f52f41;
+}
+.navbar-expand-lg {
+    justify-content: space-around!important;
+    z-index: 9;
+}
+.background{
+    background-image: url(../img/pizza.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.favicon{
+    color: #fff;
+    font-size: 2rem;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+.first{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.title-container{
+    width: 100%;
+    float: none;
+    margin: 0;
+    display: flex;
+    padding: 11em .6em 1em;
+    justify-content: center;
+}
+.title{
+    background: #e52f30;
+    width: auto;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 6px 10px 8px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    border-radius: 1px;
+}
+.nav-link {
+    color: #fff;
+    font-weight: 700;
+}
+.nav-link:hover {
+    color: #fff;
+    text-decoration: underline!important;
+}
+.form-control{
+    height: 3rem;
+}
+.search{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.input-group-append{
+    width: 20%;
+}
+.ancho{
+    width: 70%;
+}
+#button-addon2{ 
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    background-color: #f52f41;
+    border: none;
+    border-radius: 0;
+}
+.icon-footer{
+    font-size: 3rem;
+    color: #fff;
+}
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-title{
+    color: #fff;
+    font-weight: 600;
+    padding-left: 5%;
+}
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+    left: 0
+}
